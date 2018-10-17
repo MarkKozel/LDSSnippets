@@ -1,10 +1,26 @@
 {
-  "LDS Notify Observer" {
-    "prefix": "!LDSno",
-    "body": [
-      "LDS.PageObjects.notifyObservers('${1:EventName}', {detail:{${2:EventPayload}});",
-      "$0"
-    ],
-    "description": "Insert Page Ob Notify Observers line"
-  }
+    "LDS Notify Observer": {
+        "prefix": "!LSno",
+        "body": [
+            "LDS.PageObjects.notifyObservers('${1:EVENT_NAME}', {detail:{${2:EVENT_PAYLOAD}}});",
+            "$0"
+        ],
+        "description": "Insert Page Ob Notify Observers line"
+    },
+    "LDS New Image Capture Algo line full": {
+        "prefix": "!LSiclf",
+        "body": [
+            "{\"display\":\"${1:DISPLAY_NAME}\", \"startTime\":\"${2:START_TIME}\",\"frequency\":\"${3:XX:XX:XX}\", \"endTime\": \"${4:XX.XX.XX}\"},",
+            "$0"
+        ],
+        "description": "Insert Full Algo Image Capture line"
+    },
+    "LDS New Image Capture Algo line short": {
+        "prefix": "!LSicls",
+        "body": [
+            "{\"display\":\"${1:DISPLAY_NAME}\", \"startTime\":\"${2:START_TIME}\"},",
+            "$0"
+        ],
+        "description": "Insert Short Algo Image Capture line"
+    }
 }

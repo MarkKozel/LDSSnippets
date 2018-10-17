@@ -4,7 +4,11 @@
     "description": "Shortcuts for developing and maintaining LDS code",
     "version": "1.0.0",
     "publisher": "LS",
-    "icon":"software-779776_960_720.png",
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/MarkKozel/LDSSnippets"
+    },
+    "icon": "images/software-779776_960_720.png",
     "engines": {
         "vscode": "^1.26.0"
     },
@@ -12,17 +16,20 @@
         "Snippets"
     ],
     "contributes": {
-        "snippets": [
-            {
+        "snippets": [{
                 "language": "javascript",
                 "path": "./snippets/snippets.json"
             },
-                        {
+            {
                 "language": "html",
                 "path": "./snippets/snippets.json"
             },
-                        {
+            {
                 "language": "php",
+                "path": "./snippets/snippets.json"
+            },
+            {
+                "language": "json",
                 "path": "./snippets/snippets.json"
             }
         ]
