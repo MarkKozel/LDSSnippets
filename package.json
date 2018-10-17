@@ -8,7 +8,7 @@
         "type": "git",
         "url": "https://github.com/MarkKozel/LDSSnippets"
     },
-    "icon": "images/software-779776_960_720.png",
+    "icon": "images/MDSLogo.jpg",
     "engines": {
         "vscode": "^1.26.0"
     },
