@@ -1,0 +1,10 @@
+{
+  "LDS Notify Observer" {
+    "prefix": "!LDSno",
+    "body": [
+      "LDS.PageObjects.notifyObservers('${1:EventName}', {detail:{${2:EventPayload}});",
+      "$0"
+    ],
+    "description": "Insert Page Ob Notify Observers line"
+  }
+}

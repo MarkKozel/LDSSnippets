@@ -1,0 +1,30 @@
+{
+    "name": "LDSSnippets",
+    "displayName": "LDSSnippets",
+    "description": "Shortcuts for developing and maintaining LDS code",
+    "version": "1.0.0",
+    "publisher": "LS",
+    "icon":"software-779776_960_720.png",
+    "engines": {
+        "vscode": "^1.26.0"
+    },
+    "categories": [
+        "Snippets"
+    ],
+    "contributes": {
+        "snippets": [
+            {
+                "language": "javascript",
+                "path": "./snippets/snippets.json"
+            },
+                        {
+                "language": "html",
+                "path": "./snippets/snippets.json"
+            },
+                        {
+                "language": "php",
+                "path": "./snippets/snippets.json"
+            }
+        ]
+    }
+}
